@@ -30,10 +30,28 @@ nav {
     box-shadow: 2px 5px 20px 5px rgba(0, 0, 0, 0.3);  
 }
 
+.hero img {
+    animation: bounce 3s infinite ease-in-out;
+}
+
 .services {
     margin-top: 3rem;
     background: linear-gradient(to left, #00CDE9, #0076DD);
     color: white;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }    
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 /*
