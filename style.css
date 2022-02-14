@@ -30,14 +30,46 @@ nav {
     box-shadow: 2px 5px 20px 5px rgba(0, 0, 0, 0.3);  
 }
 
+.button-no-bg-white {
+    border: 2px solid white;
+    padding: 9px 25px;
+    border-radius: 45px;
+    font-size: 19px;
+    transition: all 0.4s ease 0s;
+    color: white;
+}
+
+.button-no-bg-white:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 2px 5px 20px 5px rgba(0, 0, 0, 0.3);  
+}
+
+.hero {    
+    background: linear-gradient(to right, #0032d3, #002749);
+    color: white;
+}
+
 .hero img {
     animation: bounce 3s infinite ease-in-out;
 }
 
 .services {
     margin-top: 3rem;
-    background: linear-gradient(to left, #00CDE9, #0076DD);
-    color: white;
+    /*background: linear-gradient(to left, #00CDE9, #0076DD);
+    color: white;*/
+}
+
+.service-card {
+    margin-top: 4rem;
+}
+
+.sz-45 {
+    font-size: 45px;
+}
+
+.size-20 {
+    font-size: 20px;
 }
 
 @keyframes bounce {
