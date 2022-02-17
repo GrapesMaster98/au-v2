@@ -72,6 +72,10 @@ nav {
     font-size: 20px;
 }
 
+.nosotros {
+    margin-top: 8rem;
+}
+
 @keyframes bounce {
     0% {
         transform: translateY(0);
