@@ -1,6 +1,9 @@
 nav {
     font-size: 17px;
-    
+}
+
+body {
+    background-color: rgb(238, 238, 238);
 }
 
 .hero h1 {
@@ -46,12 +49,14 @@ nav {
 }
 
 .hero {    
-    background: linear-gradient(to right, #0032d3, #002749);
-    color: white;
+    background: -webkit-linear-gradient(40deg, #23026d 0%, #3d64f4 100%);
+    /*background: linear-gradient(to right, #0032d3, #002749);*/
+    color: white;    
 }
 
 .hero img {
     animation: bounce 3s infinite ease-in-out;
+    width: 16rem;
 }
 
 .services {
@@ -76,6 +81,27 @@ nav {
     margin-top: 8rem;
 }
 
+.card-icon {
+    background-color: #0032d3;
+    color: white;
+    font-size: 40px;
+    padding: 15px 20px;
+    border-radius: 90%;
+}
+
+.step-card {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    min-height: 325px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.step-card:hover {
+    box-shadow: 2px 5px 20px 5px rgba(0, 0, 0, 0.3);
+    animation: bounce 2s infinite ease-in-out 0s;
+}
+
 @keyframes bounce {
     0% {
         transform: translateY(0);
@@ -87,6 +113,16 @@ nav {
 
     100% {
         transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .step-card {
+        margin-top: 2rem;
+    }
+
+    hero img {
+        width: 8rem;
     }
 }
 
