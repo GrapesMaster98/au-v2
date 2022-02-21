@@ -44,7 +44,7 @@
                             <h1 class="fw-bold display-1">Somos <span style="color: #0076DD;">Aurealis</span></h1>
                             <p class="mt-3">Nos dedicamos al <strong>desarrollo</strong> y <strong>diseño</strong> de marcas, aplicaciones y páginas web a nivel global. Nuestra misión es crear la imagen perfecta para tu negocio, la imagen que tu marca merece.</p>
                             <br>
-                            <a href="/" class="button-no-bg-white">Conoce más</a>
+                            <a href="/" class="button-no-bg-white">Contáctanos</a>
                         </div>                        
                     </div>
                     <br><br>
@@ -91,9 +91,76 @@
         </section>
 
         <section class="nosotros">
-            <div class="container-fluid">
-                <h3 class="mt-4 text-center fw-bold">Nos enfocamos en lo que realmente importa</h3>
-                <p class="text-center mt-3">No nos andamos con rodeos, nuestro trabajo es <strong>profesional</strong> y <strong>a la medida</strong>. <br> Nuestro método es <strong>transparente</strong>, siempre sabrás que estamos haciendo y siempre tendrás los <strong>mejores resultados</strong>.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                      <!-- Tab navs -->
+                      <div
+                        class="nav flex-column nav-tabs text-center"
+                        id="v-tabs-tab"
+                        role="tablist"
+                        aria-orientation="vertical"
+                      >
+                        <a
+                          class="nav-link active"
+                          id="v-tabs-home-tab"
+                          data-mdb-toggle="tab"
+                          href="#v-tabs-home"
+                          role="tab"
+                          aria-controls="v-tabs-home"
+                          aria-selected="true"
+                          >Home</a
+                        >
+                        <a
+                          class="nav-link"
+                          id="v-tabs-profile-tab"
+                          data-mdb-toggle="tab"
+                          href="#v-tabs-profile"
+                          role="tab"
+                          aria-controls="v-tabs-profile"
+                          aria-selected="false"
+                          >Profile</a
+                        >
+                        <a
+                          class="nav-link"
+                          id="v-tabs-messages-tab"
+                          data-mdb-toggle="tab"
+                          href="#v-tabs-messages"
+                          role="tab"
+                          aria-controls="v-tabs-messages"
+                          aria-selected="false"
+                          >Messages</a
+                        >
+                      </div>
+                      <!-- Tab navs -->
+                    </div>
+                  
+                    <div class="col-9">
+                      <!-- Tab content -->
+                      <div class="tab-content" id="v-tabs-tabContent">
+                        <div class="tab-pane fade show active" id="v-tabs-home" role="tabpanel" aria-labelledby="v-tabs-home-tab">
+                            <i class="fa-solid fa-folder"></i>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="v-tabs-profile"
+                          role="tabpanel"
+                          aria-labelledby="v-tabs-profile-tab"
+                        >
+                          Profile content
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="v-tabs-messages"
+                          role="tabpanel"
+                          aria-labelledby="v-tabs-messages-tab"
+                        >
+                          Messages content
+                        </div>
+                      </div>
+                      <!-- Tab content -->
+                    </div>
+                  </div>
             </div>
         </section>
     </main>
