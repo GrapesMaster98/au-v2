@@ -1,0 +1,23 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+.flex-container h1 {
+    font-size: 2.5rem;
+}
+
+.flex-container h2 {
+    font-size: 1.1rem;
+}
+
+.button {
+    background-color: #4f46e5;
+    color: white;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    transition: all 0.5s ease-in-out 0s;
+}
